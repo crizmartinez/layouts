@@ -1,31 +1,39 @@
-/*div {
-    width: 100px;
-    height: 300px;
-    display: inline-block;
-    margin: 100px 75px;
-}*/
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    width: 200px;
+    height: 600px;
+    margin: 100px;
+    display: inline-block; 
+}
 body {
-    background-color: lime;
+    background-color: lightgrey;
+}   
+#percent {
+    background: lightsalmon;
+    font-size: 2em;
 }
 #top {
     background-color: mediumturquoise;
-    height: 100px;
+    width: 100%;
+    height: 300%;
+    margin: 0;
+    display: block;
 }
 #two {
     background-color: firebrick;
-    width: 700px;
-    height: 500px;
-    margin: 0px;
-    display: inline-block;
+    width: 50vw;
+    height: 100vh
 }
 #three {
     background-color: navy;
-    width: 400px;
-    height: 500px;
-    margin: 25px;
-    display: inline-block;
 }
 #bottom {
     background-color: purple;
-    height: 75px;
+}
+#rem {
+ background-color: mediumorchid;
+ font-size: 1.1rem;
 }
